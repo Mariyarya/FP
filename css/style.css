@@ -1,0 +1,489 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-style: 62.5%;
+}
+
+.wrapper {
+   font-family: "Roboto", sans-serif;
+}
+img {
+   max-width: 100%;
+}
+
+/* ----------------------------------------------------- */
+.container {
+   /* asa le-am aranjat pe centru */
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.navigation {
+   padding: 10px 37.5px 25px 37.5px;
+   background-color: #ffffff;
+}
+
+.header {
+   display: flex;
+   padding-top: 2rem;
+   align-items: center;
+}
+
+.nav-left {
+   margin-right: auto;
+}
+
+.nav-link {
+   display: inline-block;
+   margin: 0 10px;
+   font-size: 14px;
+   font-weight: normal;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #000000;
+}
+.nav-link:hover {
+   text-decoration: underline;
+}
+
+/* --------right------------- */
+
+.header-right {
+   margin-left: auto;
+}
+
+/* -------2 block-------- */
+
+.second-block {
+   position: relative;
+   display: flex;
+}
+
+.container {
+   box-sizing: border-box;
+   position: relative;
+   text-align: center;
+   color: white;
+}
+
+.centered {
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 43px;
+}
+.subheader {
+   position: absolute;
+   top: 49.5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 17px;
+   letter-spacing: normal;
+   letter-spacing: 0.8px;
+}
+.link {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 15px;
+   letter-spacing: 1.4px;
+}
+
+.link a {
+   text-decoration: none;
+   color: white;
+}
+.link a:hover {
+   text-decoration: underline;
+}
+
+/* -----end bloc 2-------------- */
+
+/* -----start bloc 3--------------  */
+
+div .container-third-block {
+   position: relative;
+   width: 600px;
+   min-height: 10vh;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.centered-third {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 43px;
+}
+
+.subheader-third {
+   position: absolute;
+   top: 130%;
+   font-size: 14px;
+   color: #a0a0a0;
+   letter-spacing: 0.8px;
+}
+
+.link-third {
+   position: absolute;
+   top: 180%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 15px;
+   letter-spacing: 1.4px;
+}
+
+.link-third a {
+   text-decoration: none;
+   color: #000000;
+}
+.link-third a:hover {
+   text-decoration: underline;
+}
+
+/* -----end bloc 3--------------  */
+
+/* -----start bloc 4 --------------  */
+.row {
+   display: flex;
+   padding-top: 100px;
+   align-items: center;
+   width: 100%;
+   justify-content: space-evenly;
+}
+
+.pfirst,
+.psecond {
+   max-width: 90%;
+}
+
+.events {
+   font-family: inherit;
+   margin-top: 40px;
+   margin-left: 90px;
+}
+
+.col-one {
+   padding-left: 120px;
+}
+
+.col-two {
+   padding-right: 120px;
+}
+
+.title-b4 {
+   margin-top: 20px;
+   text-align: center;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 27px;
+   line-height: 30px;
+   text-align: center;
+   color: #000000;
+}
+.link-bfour {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.link-bfour a {
+   text-decoration: none;
+   color: #000000;
+   letter-spacing: 1.4px;
+   line-height: 15.23px;
+}
+
+.link-bfour a:hover {
+   text-decoration: underline;
+}
+/* -----end bloc 4--------------  */
+/* -----start bloc  5-------------- */
+
+/* -----end bloc  5-------------- */
+.c-b5 {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+.center-b5 {
+   /* padding-left: 300px; */
+   justify-content: center;
+   font-size: 33px;
+   color: #000000;
+   line-height: 36px;
+}
+
+.subheader-b5 {
+   position: absolute;
+   top: 150%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* -----start bloc 6 slider-------------- */
+
+.text-slider {
+   padding-top: 100px;
+   text-align: center;
+}
+
+.title-hslider {
+   font-size: 33px;
+   line-height: 36px;
+   color: #000000;
+}
+.title-sslider {
+   padding-top: 20px;
+   font-size: 15px;
+   line-height: 18px;
+   color: #a0a0a0;
+   letter-spacing: 0.8 px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+   margin-top: 10px;
+   position: absolute;
+   top: -3rem;
+   padding-left: 819px;
+}
+
+.owl-carousel {
+   margin-top: 70px;
+   box-sizing: border-box;
+}
+
+.big {
+   margin: 10px 10px;
+   display: flex;
+   color: #a0a0a0;
+   font-size: 20px;
+   line-height: 21px;
+   letter-spacing: 0.7px;
+}
+
+.small {
+   /* margin: 10px 20px; */
+   padding-left: 10px;
+   display: flex;
+   color: #a0a0a0;
+   font-size: 20px;
+   line-height: 21px;
+   letter-spacing: 0.7px;
+}
+
+div a {
+   text-decoration: none;
+}
+
+/* -----end bloc 6 slider-------------- */
+
+/* <!-- -----start bloc 7 -------------- --> */
+.emb {
+   /* restu e la fel ca blocul 2  */
+   margin-top: 100px;
+}
+/* <!-- -----end bloc 7 -------------- --> */
+
+/* <!-- -----start bloc 8-------------- --> */
+
+.b-eight {
+   box-sizing: border-box;
+   position: relative;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.b-e-title {
+   font-family: "Roboto", sans-serif;
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 34px;
+   line-height: 36px;
+   text-align: center;
+   color: #000000;
+}
+
+.b-e-subtitle {
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 400px;
+   margin-right: 400px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.8px;
+   color: #a0a0a0;
+}
+
+.img-eight {
+   justify-content: center;
+   margin-top: 50px;
+}
+
+/* <!-- -----end bloc 8-------------- --> */
+
+/* <!-- -----start bloc 9-------------- --> */
+
+.img-nine {
+   padding-top: 20px;
+   justify-content: space-around;
+   width: 20%;
+   height: auto;
+   flex-direction: row;
+   flex-flow: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+   .img-nine {
+      width: 40%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .img-nine {
+      width: 90%;
+   }
+}
+
+.link-nine {
+   text-decoration: none;
+   margin-top: 20px;
+   color: #000;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+}
+.voda {
+   color: black;
+}
+
+.link-nine a:hover {
+   text-decoration: underline;
+}
+
+.pictures {
+   width: 100%;
+   height: auto;
+}
+
+/* <!-- -----end bloc 9-------------- --> */
+
+/* <!-- -----start bloc 11-------------- --> */
+.img-eleven {
+   margin-left: 170px;
+   margin-top: 50px;
+}
+/* <!-- -----end bloc 11-------------- --> */
+
+/* -----------footer-------- */
+.footer {
+   margin-top: 50px;
+   display: flex;
+   max-width: 100%;
+}
+
+.container-f {
+   width: 100%;
+   max-width: 1230px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.footer-t {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+.footer-l {
+   max-width: 364px;
+   margin-right: 35px;
+}
+.footer-l:last-child {
+   margin-right: 0;
+}
+
+.footer-left {
+   font-family: Roboto;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #000;
+   margin-bottom: 16px;
+}
+.footer-left:last-child {
+   margin-bottom: 80px;
+}
+
+.footer-m {
+   max-width: 364px;
+   margin-right: 35px;
+}
+.footer-m:last-child {
+   margin-right: 0;
+}
+
+.footer-title {
+   font-family: Roboto;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #000;
+   margin-bottom: 16px;
+}
+.footer-title:last-child {
+   margin-bottom: 80px;
+}
+
+.footer-sub {
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0.8000000119px;
+   text-align: left;
+   color: #a0a0a0;
+}
+.footer-sub::after {
+   display: block;
+   content: "";
+   background-color: #000;
+   height: 1px;
+   margin-top: 100px;
+}
+
+.footer-b {
+   display: flex;
+   justify-content: flex-end;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+/* ----------------------------------------------------------- */
